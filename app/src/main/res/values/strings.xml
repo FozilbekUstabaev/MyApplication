@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Kotlin 3-5</string>
+    <string name="frown">Frown</string>
+    <string name="is_frown">is_Frown</string>
+    <string name="worn">worn</string>
+    <string name="poseidon">poseidon</string>
+    <string name="is_poseidon">is_poseidon</string>
+    <string name="sent">sent</string>
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img_game"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/black" />
+
+    <Button
+        android:id="@+id/btn_frown"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/img_game"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape"
+        android:text="@string/frown"
+        android:textAllCaps="false"
+        android:textColor="@color/red"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_frown_ic"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/btn_frown"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape"
+        android:text="@string/is_frown"
+        android:textAllCaps="false"
+        android:textColor="@color/red"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_worn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/img_game"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape"
+        android:text="@string/worn"
+        android:textAllCaps="false"
+        android:textColor="@color/red"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_worn_ic"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/btn_frown"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape"
+        android:text="is_worn"
+        android:textAllCaps="false"
+        android:textColor="@color/red"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_poseidon"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/img_game"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/shape"
+        android:text="@string/poseidon"
+        android:textAllCaps="false"
+        android:textColor="@color/red"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_poseidon_ic"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/btn_frown"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/shape"
+        android:text="@string/is_poseidon"
+        android:textAllCaps="false"
+        android:textColor="@color/red"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:textSize="20sp"
+        android:textColor="@color/red"
+        android:text="@string/sent"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="15dp"
+        android:background="@drawable/shape"
+        android:layout_below="@id/btn_poseidon_ic"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+</RelativeLayout>
